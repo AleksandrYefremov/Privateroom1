@@ -23,19 +23,35 @@ public class Login {
     webDriver.manage().window().maximize();
     webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-    webDriver.get("http://v3.test.itpmgroup.com");
+
+        webDriver.get("https://vnd.test1:Pa$$w0rd@privateroom.competence.com:33443/api/v1/Users/Current/LinkedApplications/UserApplication");
+        webDriver.findElement(By.id("details-button")).click();
+        webDriver.findElement(By.id("proceed-link")).click();
+
+        System.out.println("Auth in API:33443");
+
+        webDriver.get("https://vnd.test1:Pa$$w0rd@privateroom.competence.com:34443/api/User/Roles");
+
+        System.out.println("Auth in API:34443");
+
+        webDriver.get("https://vnd.test1:Pa$$w0rd@k2dev/api/workflow/v1/tasks/");
+        webDriver.findElement(By.id("details-button")).click();
+        webDriver.findElement(By.id("proceed-link")).click();
+
+        System.out.println("Auth in K2");
+
+        webDriver.get("https://vnd.test1:Pa$$w0rd@privateroom.competence.com/#/apps/naftogaz/");
+        webDriver.findElement(By.id("details-button")).click();
+        webDriver.findElement(By.id("proceed-link")).click();
 
         System.out.println("Site was opened");
 
-        webDriver.findElement(By.name("_username")).sendKeys("Student");
-        webDriver.findElement(By.id("password")).sendKeys("909090");
-        webDriver.findElement(By.tagName("button")).click();
-
-        Assert.assertTrue("Avatar is not present", webDriver.findElement(By.xpath(".//*[@class='pull-left image']")).isDisplayed());
-        System.out.println("Avatar is present");
+        Assert.assertTrue("App Naftogaz is not opened", ((ChromeDriver) webDriver).findElementByCssSelector(".ng-star-inserted h1") .isDisplayed());
+        System.out.println("App Naftogaz was opened");
 
         webDriver.quit();
     }
+
 
 
 }

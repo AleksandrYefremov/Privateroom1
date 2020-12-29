@@ -100,3 +100,72 @@
 2020-28-12 00:22:37  DEBUG [org.apache.http.wire] :  << "[\r][\n]"
 2020-28-12 00:22:37  DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] : Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6e6d4780
 2020-28-12 00:22:37  DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] : Connection can be kept alive indefinitely
+2020-29-12 18:57:06   INFO [libs.ActionsWithElements] : Element is displayed -> false
+2020-29-12 19:31:04  ERROR [libs.ActionsWithElements] : Cannot work with elementorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".naftogaz-requests-actions [type='button']:nth-of-type(3) .mat-button-wrapper"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'NERV', ip: '10.7.168.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\8523~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c00c27dfd265fc98554ce72e5cd6f801
+*** Element info: {Using=css selector, value=.naftogaz-requests-actions [type='button']:nth-of-type(3) .mat-button-wrapper}
+2020-29-12 19:33:21  ERROR [libs.ActionsWithElements] : Cannot work with elementjava.lang.NullPointerException
+2020-29-12 19:36:11  ERROR [libs.ActionsWithElements] : Cannot work with elementorg.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'NERV', ip: '10.7.168.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\8523~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eb4df95c7b13c1785388623f92f351f7
+*** Element info: {Using=css selector, value=button:nth-of-type(3) > .mat-button-wrapper}
+2020-29-12 19:41:23  ERROR [libs.ActionsWithElements] : Cannot work with elementorg.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'NERV', ip: '10.7.168.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\8523~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7312325d3e009359f4c4e0854b174a13
+*** Element info: {Using=css selector, value=button:nth-of-type(3) > .mat-button-wrapper}
+2020-29-12 19:43:38  ERROR [libs.ActionsWithElements] : Cannot work with elementorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".naftogaz-requests-actions [type='button']:nth-of-type(3)"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'NERV', ip: '10.7.168.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\8523~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9e7fd7e39c74c5933eb35fd1d9c3527b
+*** Element info: {Using=css selector, value=.naftogaz-requests-actions [type='button']:nth-of-type(3)}
+2020-29-12 19:49:25   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-29-12 19:49:25   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 19:50:32   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-29-12 19:50:33   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:05:09   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-29-12 20:05:10   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:23:21   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-29-12 20:23:21   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:23:22   INFO [libs.ActionsWithElements] : 111111111 was input into element
+2020-29-12 20:23:22   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:31:41   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-29-12 20:31:42   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:31:42   INFO [libs.ActionsWithElements] : 111111111 was input into element
+2020-29-12 20:31:42   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:31:42  ERROR [libs.ActionsWithElements] : State should be 'check' or 'uncheck'
+2020-29-12 20:32:37   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-29-12 20:32:37   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:32:37   INFO [libs.ActionsWithElements] : 111111111 was input into element
+2020-29-12 20:32:37   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:32:38   INFO [libs.ActionsWithElements] : Check box checked
+2020-29-12 20:35:32   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-29-12 20:35:32   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:35:33   INFO [libs.ActionsWithElements] : 111111111 was input into element
+2020-29-12 20:35:33   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:35:33   INFO [libs.ActionsWithElements] : Check box checked
+2020-29-12 20:35:33   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:39:05   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-29-12 20:39:05   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:39:05   INFO [libs.ActionsWithElements] : 111111111 was input into element
+2020-29-12 20:39:06   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:39:06   INFO [libs.ActionsWithElements] : Check box checked
+2020-29-12 20:39:06   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:39:07   INFO [libs.ActionsWithElements] : Element was clicked

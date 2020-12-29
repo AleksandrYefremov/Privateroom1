@@ -12,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import pages.EditSparePage;
 import pages.HomePage;
 import pages.LoginPage;
-import pages.SparePage;
+import pages.ReceiptPage;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -21,23 +21,24 @@ public class ParentTest {
 
     WebDriver webDriver;
     protected static ConfigProperties configProperties = ConfigFactory.create(ConfigProperties.class);
-    protected LoginPage loginPage;
     protected HomePage homePage;
-    protected SparePage sparePage;
+    protected LoginPage loginPage;
+    protected ReceiptPage receiptPage;
     protected EditSparePage editSparePage;
     String browser = System.getProperty("browser");
 
     @Before
     public void setUp() {
-        initDriver();
+//        initDriver();
+        File driver = new File("./src/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", driver.getAbsolutePath());
+        webDriver = new ChromeDriver();
 
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        loginPage = new LoginPage(webDriver);
         homePage = new HomePage(webDriver);
-        sparePage = new SparePage(webDriver);
-        editSparePage = new EditSparePage(webDriver);
-
+        receiptPage = new ReceiptPage(webDriver);
+        loginPage = new LoginPage(webDriver);
     }
 
     @After

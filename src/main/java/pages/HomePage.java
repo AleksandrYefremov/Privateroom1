@@ -26,8 +26,8 @@ public class HomePage extends ParentPage {
     }
 
     public void goToThisPage() {
-        LoginPage loginPage = new LoginPage(webDriver);
-        loginPage.login("Student", "909090");
+//        LoginPage loginPage = new LoginPage(webDriver);
+//        loginPage.login("Student", "909090");
         Assert.assertEquals("Avatar is not present", true, isAvatarPresent());
     }
     public void clickOnMenuDictionary() {
