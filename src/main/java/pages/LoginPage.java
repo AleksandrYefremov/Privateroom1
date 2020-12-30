@@ -50,4 +50,14 @@ public class LoginPage extends ParentPage {
         actionsWithElements.isElementPresent(By.cssSelector(".naftogaz-requests-actions [type='button']:nth-of-type(3)"));
         actionsWithElements.clickOnElement(By.cssSelector(".naftogaz-requests-actions [type='button']:nth-of-type(3)"));
     }
+
+    public void clickOnBtnNewContract() {
+        actionsWithElements.isElementPresent(By.cssSelector(".naftogaz-requests-actions > button:nth-of-type(2)"));
+        actionsWithElements.clickOnElement(By.cssSelector(".naftogaz-requests-actions > button:nth-of-type(2)"));
+    }
+
+    public void clickOnBtnChangeContract() {
+        actionsWithElements.isElementPresent(By.cssSelector(".naftogaz-requests-actions > button:nth-of-type(1)"));
+        actionsWithElements.clickOnElement(By.cssSelector(".naftogaz-requests-actions > button:nth-of-type(1)"));
+    }
 }

@@ -27,14 +27,11 @@ public class ReceiptPage extends ParentPage {
     public ReceiptPage(WebDriver webDriver) {
         super(webDriver);
 
-
-
-
 }
 
 
-    public void enterPersonalNumber() {
-        actionsWithElements.enterTextInToElement(inputPersonalNumber, "111111111");
+    public void enterPersonalNumber(String element) {
+        actionsWithElements.enterTextInToElement(inputPersonalNumber, element);
         actionsWithElements.clickOnElement(buttonFind);
 
     }

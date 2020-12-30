@@ -31,6 +31,16 @@ public class ActionsWithElements {
         }
     }
 
+    public void enterNumberInToElement(WebElement element, String text) {
+        try {
+            element.clear();
+            element.sendKeys(String.valueOf(text));
+            logger.info(text + " was input into element");
+        }catch (Exception e) {
+            printErrorAndStopTest(e);
+        }
+    }
+
     private void printErrorAndStopTest(Exception e) {
         logger.error("Cannot work with element" + e);
         Assert.fail("Cannot work with element" + e);

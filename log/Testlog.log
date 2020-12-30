@@ -169,3 +169,580 @@ Session ID: 9e7fd7e39c74c5933eb35fd1d9c3527b
 2020-29-12 20:39:06   INFO [libs.ActionsWithElements] : Check box checked
 2020-29-12 20:39:06   INFO [libs.ActionsWithElements] : Element was clicked
 2020-29-12 20:39:07   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:42:21   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-29-12 20:42:21   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:42:21   INFO [libs.ActionsWithElements] : 111111111 was input into element
+2020-29-12 20:42:22   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:42:22   INFO [libs.ActionsWithElements] : Check box checked
+2020-29-12 20:42:22   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 20:42:23   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 21:14:02   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-29-12 21:14:02   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 21:14:02   INFO [libs.ActionsWithElements] : 111111111 was input into element
+2020-29-12 21:14:02   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 21:14:05   INFO [libs.ActionsWithElements] : Check box checked
+2020-29-12 21:14:06   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 21:14:10   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 21:28:48   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-29-12 21:28:48   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 21:28:49   INFO [libs.ActionsWithElements] : 111111111 was input into element
+2020-29-12 21:28:49   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 21:28:49   INFO [libs.ActionsWithElements] : Check box checked
+2020-29-12 21:28:49   INFO [libs.ActionsWithElements] : Element was clicked
+2020-29-12 21:28:50   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:04:58   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 00:04:58   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:04:59   INFO [libs.ActionsWithElements] : 111111111 was input into element
+2020-30-12 00:05:09  ERROR [libs.ActionsWithElements] : Cannot work with elementorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (130949357fb478e2d72673eab573b454)] -> css selector: .button.button--verify.mat-button-base.mat-stroked-button] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'NERV', ip: '10.7.168.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\8523~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 130949357fb478e2d72673eab573b454
+2020-30-12 00:11:08   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 00:11:08   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:11:08   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 00:11:09   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:16:35   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 00:16:35   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:16:36   INFO [libs.ActionsWithElements] : 111111111 was input into element
+2020-30-12 00:16:36   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:16:36   INFO [libs.ActionsWithElements] : Check box checked
+2020-30-12 00:16:37   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:16:41   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:28:20   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 00:28:20   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:30:50   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 00:30:50   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:33:00   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 00:33:00   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:33:56   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 00:33:56   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:36:57   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 00:36:57   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:39:13   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 00:39:13   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:54:54   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 00:54:55   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:58:59   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 00:59:00   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 00:59:00   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 00:59:00   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:04:23   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 01:04:23   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:04:23   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 01:04:24   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:04:24  ERROR [libs.ActionsWithElements] : Cannot work with elementorg.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'NERV', ip: '10.7.168.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: unknown
+2020-30-12 01:06:34   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 01:06:34   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:06:34   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 01:06:34   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:06:35   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:09:32   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 01:09:32   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:09:32   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 01:09:33   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:09:33   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:09:33   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:18:17   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 01:18:17   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:18:17   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 01:18:18   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:18:18   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:18:18   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:18:18   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 01:18:19   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:18:19   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:27:04   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 01:27:04   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:27:05   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 01:27:05   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:27:05   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:27:05   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:27:06   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 01:27:06   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:27:06   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:27:06   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:27:06   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:27:07   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:27:07   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:00   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 01:47:01   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:01   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 01:47:01   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:02   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:02   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:02   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 01:47:02   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:02   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:03   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:03   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:03   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:03   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:04   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:04   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:04   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:05   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:05   INFO [libs.ActionsWithElements] : Перебийніс was input into element
+2020-30-12 01:47:05   INFO [libs.ActionsWithElements] : Орест was input into element
+2020-30-12 01:47:05   INFO [libs.ActionsWithElements] : Михайлович was input into element
+2020-30-12 01:47:06   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:47:06   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:32   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 01:54:32   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:32   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 01:54:33   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:33   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:33   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:33   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 01:54:34   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:34   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:34   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:34   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:35   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:35   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:35   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:35   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:36   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:36   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:36   INFO [libs.ActionsWithElements] : Перебийніс was input into element
+2020-30-12 01:54:37   INFO [libs.ActionsWithElements] : Орест was input into element
+2020-30-12 01:54:37   INFO [libs.ActionsWithElements] : Михайлович was input into element
+2020-30-12 01:54:37   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:37   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:37   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 01:54:38   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:05   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:07:05   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:05   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 02:07:05   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:06   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:06   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:06   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 02:07:07   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:07   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:07   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:07   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:08   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:08   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:08   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:08   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:09   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:09   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:09   INFO [libs.ActionsWithElements] : Перебийніс was input into element
+2020-30-12 02:07:09   INFO [libs.ActionsWithElements] : Орест was input into element
+2020-30-12 02:07:09   INFO [libs.ActionsWithElements] : Михайлович was input into element
+2020-30-12 02:07:10   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:10   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:10   INFO [libs.ActionsWithElements] : 3213215765 was input into element
+2020-30-12 02:07:10   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:11   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:07:11   INFO [libs.ActionsWithElements] : 132548731 was input into element
+2020-30-12 02:07:11   INFO [libs.ActionsWithElements] : 504682517 was input into element
+2020-30-12 02:07:11   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:07:11   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:08   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:08:09   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:09   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 02:08:09   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:09   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:10   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:10   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 02:08:10   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:10   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:10   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:11   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:11   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:11   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:11   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:12   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:12   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:12   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:12   INFO [libs.ActionsWithElements] : Перебийніс was input into element
+2020-30-12 02:08:12   INFO [libs.ActionsWithElements] : Орест was input into element
+2020-30-12 02:08:13   INFO [libs.ActionsWithElements] : Михайлович was input into element
+2020-30-12 02:08:13   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:13   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:13   INFO [libs.ActionsWithElements] : 3213215765 was input into element
+2020-30-12 02:08:14   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:14   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:08:14   INFO [libs.ActionsWithElements] : 132548731 was input into element
+2020-30-12 02:08:14   INFO [libs.ActionsWithElements] : 504682517 was input into element
+2020-30-12 02:08:19   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:08:20   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:17   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:25:17   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:17   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 02:25:17   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:18   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:18   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:18   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 02:25:19   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:19   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:19   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:19   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:20   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:20   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:20   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:21   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:21   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:21   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:21   INFO [libs.ActionsWithElements] : Перебийніс was input into element
+2020-30-12 02:25:21   INFO [libs.ActionsWithElements] : Орест was input into element
+2020-30-12 02:25:22   INFO [libs.ActionsWithElements] : Михайлович was input into element
+2020-30-12 02:25:22   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:22   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:22   INFO [libs.ActionsWithElements] : 3213215765 was input into element
+2020-30-12 02:25:22   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:23   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:25:23   INFO [libs.ActionsWithElements] : 132548731 was input into element
+2020-30-12 02:25:23   INFO [libs.ActionsWithElements] : 504682517 was input into element
+2020-30-12 02:25:28   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:25:28   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:28:35   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:28:35   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:28:36   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 02:28:36   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:28:36   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:28:37   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:28:37   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 02:28:37   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:28:37   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:28:37   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:28:38   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:28:38   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:28:54  ERROR [libs.ActionsWithElements] : Cannot work with elementorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: mat-option:nth-of-type(8) > .mat-option-text' (tried for 10 second(s) with 500 milliseconds interval)
+2020-30-12 02:31:00   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:31:01   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:31:01   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 02:31:01   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:31:02   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:31:03   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:31:03   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 02:31:04   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:31:04   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:31:05   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:31:20  ERROR [libs.ActionsWithElements] : Cannot work with elementjava.lang.NullPointerException
+2020-30-12 02:31:56   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:31:57   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:31:57   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 02:31:57   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:31:58   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:31:59   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:31:59   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 02:32:00   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:32:00   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:32:01   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:32:01   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:32:02   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:32:02   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:32:03   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:32:03   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:32:04   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:32:04   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:32:05   INFO [libs.ActionsWithElements] : Перебийніс was input into element
+2020-30-12 02:32:05   INFO [libs.ActionsWithElements] : Орест was input into element
+2020-30-12 02:32:06   INFO [libs.ActionsWithElements] : Михайлович was input into element
+2020-30-12 02:32:07   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:32:07   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:32:08   INFO [libs.ActionsWithElements] : 3213215765 was input into element
+2020-30-12 02:32:09   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:32:09   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:32:10   INFO [libs.ActionsWithElements] : 132548731 was input into element
+2020-30-12 02:32:10   INFO [libs.ActionsWithElements] : 504682517 was input into element
+2020-30-12 02:32:45   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:32:46   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:39:27   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:39:27   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:39:27   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 02:39:28   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:39:29   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:39:29   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:39:30   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 02:39:35  ERROR [libs.ActionsWithElements] : Cannot work with elementorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[for='mat-checkbox-26-input'] .mat-checkbox-inner-container"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'NERV', ip: '10.7.168.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\8523~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56980}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bca5b4be05b28f6ae9f79b1b44cce8eb
+*** Element info: {Using=css selector, value=[for='mat-checkbox-26-input'] .mat-checkbox-inner-container}
+2020-30-12 02:42:12   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:42:13   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:13   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 02:42:13   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:14   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:15   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:15   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 02:42:16   INFO [libs.ActionsWithElements] : Check box checked
+2020-30-12 02:42:16   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:17   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:17   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:18   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:18   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:19   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:19   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:20   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:20   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:20   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:21   INFO [libs.ActionsWithElements] : Перебийніс was input into element
+2020-30-12 02:42:22   INFO [libs.ActionsWithElements] : Орест was input into element
+2020-30-12 02:42:23   INFO [libs.ActionsWithElements] : Михайлович was input into element
+2020-30-12 02:42:24   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:24   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:24   INFO [libs.ActionsWithElements] : 3213215765 was input into element
+2020-30-12 02:42:25   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:25   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:42:26   INFO [libs.ActionsWithElements] : 132548731 was input into element
+2020-30-12 02:42:27   INFO [libs.ActionsWithElements] : 504682517 was input into element
+2020-30-12 02:43:02   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:43:02   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:16   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:45:16   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:17   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 02:45:17   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:18   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:18   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:18   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 02:45:19   INFO [libs.ActionsWithElements] : Check box checked
+2020-30-12 02:45:19   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:20   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:21   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:21   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:22   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:23   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:23   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:23   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:24   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:24   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:25   INFO [libs.ActionsWithElements] : Перебийніс was input into element
+2020-30-12 02:45:25   INFO [libs.ActionsWithElements] : Орест was input into element
+2020-30-12 02:45:26   INFO [libs.ActionsWithElements] : Михайлович was input into element
+2020-30-12 02:45:27   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:27   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:27   INFO [libs.ActionsWithElements] : 3213215765 was input into element
+2020-30-12 02:45:28   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:28   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:45:29   INFO [libs.ActionsWithElements] : 132548731 was input into element
+2020-30-12 02:45:29   INFO [libs.ActionsWithElements] : 504682517 was input into element
+2020-30-12 02:45:30   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:45:30   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:46   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:48:47   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:47   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 02:48:47   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:48   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:48   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:49   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 02:48:49   INFO [libs.ActionsWithElements] : Check box checked
+2020-30-12 02:48:50   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:50   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:50   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:50   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:51   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:51   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:52   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:52   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:52   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:53   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:53   INFO [libs.ActionsWithElements] : Перебийніс was input into element
+2020-30-12 02:48:54   INFO [libs.ActionsWithElements] : Орест was input into element
+2020-30-12 02:48:54   INFO [libs.ActionsWithElements] : Михайлович was input into element
+2020-30-12 02:48:55   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:55   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:56   INFO [libs.ActionsWithElements] : 3213215765 was input into element
+2020-30-12 02:48:56   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:56   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:48:57   INFO [libs.ActionsWithElements] : 132548731 was input into element
+2020-30-12 02:48:58   INFO [libs.ActionsWithElements] : 504682517 was input into element
+2020-30-12 02:48:58   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:48:58   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:49:30   INFO [libs.ActionsWithElements] : Element is displayed -> false
+2020-30-12 02:50:46   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:50:46   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:46   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 02:50:47   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:47   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:47   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:48   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 02:50:48   INFO [libs.ActionsWithElements] : Check box checked
+2020-30-12 02:50:49   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:49   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:50   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:50   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:50   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:51   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:51   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:51   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:52   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:52   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:53   INFO [libs.ActionsWithElements] : Перебийніс was input into element
+2020-30-12 02:50:53   INFO [libs.ActionsWithElements] : Орест was input into element
+2020-30-12 02:50:54   INFO [libs.ActionsWithElements] : Михайлович was input into element
+2020-30-12 02:50:54   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:55   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:55   INFO [libs.ActionsWithElements] : 3213215765 was input into element
+2020-30-12 02:50:56   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:56   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 02:50:56   INFO [libs.ActionsWithElements] : 132548731 was input into element
+2020-30-12 02:50:57   INFO [libs.ActionsWithElements] : 50468251 was input into element
+2020-30-12 02:50:57   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 02:50:57  ERROR [libs.ActionsWithElements] : Cannot work with elementorg.openqa.selenium.ElementNotInteractableException: element not interactable: element has zero size
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'NERV', ip: '10.7.168.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\8523~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ca1e118e080822e5d81368ff76c4eff7
+2020-30-12 03:01:06   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 03:01:06   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:06   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 03:01:06   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:07   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:07   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:08   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 03:01:08   INFO [libs.ActionsWithElements] : Check box checked
+2020-30-12 03:01:09   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:09   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:10   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:10   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:10   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:11   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:11   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:11   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:12   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:12   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:13   INFO [libs.ActionsWithElements] : Перебийніс was input into element
+2020-30-12 03:01:13   INFO [libs.ActionsWithElements] : Орест was input into element
+2020-30-12 03:01:14   INFO [libs.ActionsWithElements] : Михайлович was input into element
+2020-30-12 03:01:14   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:14   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:15   INFO [libs.ActionsWithElements] : 3213215765 was input into element
+2020-30-12 03:01:16   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:16   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:01:16   INFO [libs.ActionsWithElements] : 132548731 was input into element
+2020-30-12 03:01:17   INFO [libs.ActionsWithElements] : 504682517 was input into element
+2020-30-12 03:01:17   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 03:01:17   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:05:31   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 03:05:31   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:05:31   INFO [libs.ActionsWithElements] : 111111111 was input into element
+2020-30-12 03:05:31   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:05:32   INFO [libs.ActionsWithElements] : Check box checked
+2020-30-12 03:05:32   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:05:39   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:05:58   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 03:05:59   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:05:59   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 03:05:59   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:00   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:00   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:00   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 03:06:01   INFO [libs.ActionsWithElements] : Check box checked
+2020-30-12 03:06:01   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:02   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:02   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:02   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:03   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:18  ERROR [libs.ActionsWithElements] : Cannot work with elementorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: mat-option:nth-of-type(8) > .mat-option-text' (tried for 10 second(s) with 500 milliseconds interval)
+2020-30-12 03:06:38   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 03:06:38   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:38   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 03:06:38   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:39   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:39   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:40   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 03:06:40   INFO [libs.ActionsWithElements] : Check box checked
+2020-30-12 03:06:41   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:41   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:41   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:42   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:42   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:42   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:43   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:43   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:44   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:44   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:44   INFO [libs.ActionsWithElements] : Перебийніс was input into element
+2020-30-12 03:06:45   INFO [libs.ActionsWithElements] : Орест was input into element
+2020-30-12 03:06:45   INFO [libs.ActionsWithElements] : Михайлович was input into element
+2020-30-12 03:06:46   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:46   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:47   INFO [libs.ActionsWithElements] : 3213215765 was input into element
+2020-30-12 03:06:47   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:47   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:06:48   INFO [libs.ActionsWithElements] : 132548731 was input into element
+2020-30-12 03:06:49   INFO [libs.ActionsWithElements] : 504682517 was input into element
+2020-30-12 03:06:49   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 03:06:49   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:20   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 03:08:20   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:20   INFO [libs.ActionsWithElements] : 111111111 was input into element
+2020-30-12 03:08:20   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:20   INFO [libs.ActionsWithElements] : Check box checked
+2020-30-12 03:08:21   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:21   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:41   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 03:08:41   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:41   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 03:08:42   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:42   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:43   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:43   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 03:08:44   INFO [libs.ActionsWithElements] : Check box checked
+2020-30-12 03:08:44   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:44   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:45   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:45   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:45   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:46   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:46   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:46   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:47   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:47   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:48   INFO [libs.ActionsWithElements] : Перебийніс was input into element
+2020-30-12 03:08:48   INFO [libs.ActionsWithElements] : Орест was input into element
+2020-30-12 03:08:49   INFO [libs.ActionsWithElements] : Михайлович was input into element
+2020-30-12 03:08:49   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:49   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:50   INFO [libs.ActionsWithElements] : 3213215765 was input into element
+2020-30-12 03:08:50   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:51   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:08:51   INFO [libs.ActionsWithElements] : 132548731 was input into element
+2020-30-12 03:08:52   INFO [libs.ActionsWithElements] : 504682517 was input into element
+2020-30-12 03:08:52   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 03:08:52   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:14   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 03:09:14   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:14   INFO [libs.ActionsWithElements] : 4444444444444444 was input into element
+2020-30-12 03:09:15   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:15   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:15   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:16   INFO [libs.ActionsWithElements] : 11 was input into element
+2020-30-12 03:09:16   INFO [libs.ActionsWithElements] : Check box checked
+2020-30-12 03:09:17   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:17   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:18   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:18   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:18   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:19   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:19   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:19   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:20   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:20   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:21   INFO [libs.ActionsWithElements] : Перебийніс was input into element
+2020-30-12 03:09:21   INFO [libs.ActionsWithElements] : Орест was input into element
+2020-30-12 03:09:22   INFO [libs.ActionsWithElements] : Михайлович was input into element
+2020-30-12 03:09:22   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:22   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:23   INFO [libs.ActionsWithElements] : 3213215765 was input into element
+2020-30-12 03:09:23   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:24   INFO [libs.ActionsWithElements] : Element was clicked
+2020-30-12 03:09:24   INFO [libs.ActionsWithElements] : 132548731 was input into element
+2020-30-12 03:09:25   INFO [libs.ActionsWithElements] : 504682517 was input into element
+2020-30-12 03:09:25   INFO [libs.ActionsWithElements] : Element is displayed -> true
+2020-30-12 03:09:25   INFO [libs.ActionsWithElements] : Element was clicked

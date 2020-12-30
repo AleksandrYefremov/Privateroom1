@@ -15,7 +15,7 @@ public class Receipt extends ParentTest {
     public void makeReceipt() throws InterruptedException {
         loginPage.loginToPrivateroom();
         loginPage.clickOnBtnReceipt();
-        receiptPage.enterPersonalNumber();
+        receiptPage.enterPersonalNumber("111111111");
         receiptPage.checkboxDataCorrect();
         receiptPage.clickOnBtnGetReceipt();
         receiptPage.clockOnBtnOk();
