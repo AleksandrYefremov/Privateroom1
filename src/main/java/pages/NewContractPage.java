@@ -4,6 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.awt.*;
+import java.awt.event.KeyEvent;
+
 public class NewContractPage extends ParentPage {
 
     @FindBy(css = "input[name='eic']")
@@ -170,7 +173,8 @@ public class NewContractPage extends ParentPage {
         actionsWithElements.enterNumberInToElement(phoneNumberField, phoneNumber);
     }
 
-    public void clickOnBtnSubmit() {
+    public void clickOnBtnSubmit() throws InterruptedException {
+        Thread.sleep(1000);
         actionsWithElements.isElementPresent(btnSubmit);
         actionsWithElements.clickOnElement(btnSubmit);
     }
@@ -179,8 +183,16 @@ public class NewContractPage extends ParentPage {
         actionsWithElements.setStatusToCheckBox(setcheckboxBoiler,"check");
     }
 
-    public void checkStatus() {
+    public boolean checkStatus() {
         actionsWithElements.isElementPresent(status);
+        return true;
+    }
+
+    public void closePrint() throws AWTException {
+        // press Escape programatically - the print dialog must have focus, obviously
+        Robot r = new Robot();
+        r.keyPress(KeyEvent.VK_ESCAPE);
+        r.keyRelease(KeyEvent.VK_ESCAPE);
     }
 }
 

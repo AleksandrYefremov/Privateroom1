@@ -46,7 +46,7 @@ public class ChangeContract extends ParentTest {
         Thread.sleep(1000);
 //        newContractPage.checkStatus();
 
-        System.out.println("New contract filled up succesfully");
+        System.out.println("Change contract filled up succesfully");
 
     }
 }

@@ -125,4 +125,7 @@ public class ActionsWithElements {
             Assert.fail("State should be 'check' or 'uncheck'");
         }
     }
+//    protected void checkExpectedResult (String message, boolean actualResult) {
+//        Assert.assertEquals(message,true, actualResult);
+//    }
 }
