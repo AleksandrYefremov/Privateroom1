@@ -45,7 +45,7 @@ public class ParentTest {
 
     @After
     public void tearDown() {
-//        webDriver.quit();
+        webDriver.quit();
     }
 
     protected void checkExpectedResult (String message, boolean actualResult) {

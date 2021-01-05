@@ -19,23 +19,23 @@ public class LoginPage extends ParentPage {
 
     public void loginToPrivateroom(){
 
-        webDriver.get("https://vnd.test1:Pa$$w0rd@privateroom.competence.com:33443/api/v1/Users/Current/LinkedApplications/UserApplication");
+        webDriver.get("https://vnd.test5:Pa$$w0rd@privateroom.competence.com:33443/api/v1/Users/Current/LinkedApplications/UserApplication");
         webDriver.findElement(By.id("details-button")).click();
         webDriver.findElement(By.id("proceed-link")).click();
 
         System.out.println("Auth in API:33443");
 
-        webDriver.get("https://vnd.test1:Pa$$w0rd@privateroom.competence.com:34443/api/User/Roles");
+        webDriver.get("https://vnd.test5:Pa$$w0rd@privateroom.competence.com:34443/api/User/Roles");
 
         System.out.println("Auth in API:34443");
 
-        webDriver.get("https://vnd.test1:Pa$$w0rd@k2dev/api/workflow/v1/tasks/");
+        webDriver.get("https://vnd.test5:Pa$$w0rd@k2dev/api/workflow/v1/tasks/");
         webDriver.findElement(By.id("details-button")).click();
         webDriver.findElement(By.id("proceed-link")).click();
 
         System.out.println("Auth in K2");
 
-        webDriver.get("https://vnd.test1:Pa$$w0rd@privateroom.competence.com/#/apps/naftogaz/");
+        webDriver.get("https://vnd.test5:Pa$$w0rd@privateroom.competence.com/#/apps/naftogaz/");
         webDriver.findElement(By.id("details-button")).click();
         webDriver.findElement(By.id("proceed-link")).click();
 

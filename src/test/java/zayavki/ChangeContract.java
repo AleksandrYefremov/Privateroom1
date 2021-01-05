@@ -3,48 +3,40 @@ package zayavki;
 import org.junit.Test;
 import parentTest.ParentTest;
 
+import java.awt.*;
+
 public class ChangeContract extends ParentTest {
     @Test
-    public void newContract() throws InterruptedException {
+    public void newContract() throws InterruptedException, AWTException {
         loginPage.loginToPrivateroom();
         loginPage.clickOnBtnChangeContract();
-        newContractPage.enterEicNumber("4444444444444444");
-        Thread.sleep(500);
-        newContractPage.selectObject();
-        Thread.sleep(300);
-        newContractPage.enterRegPersons("11");
-        Thread.sleep(300);
-        newContractPage.checkboxBoiler();
-        Thread.sleep(300);
-        newContractPage.selectOperatorGrm();
-        Thread.sleep(300);
-        newContractPage.selectRegion();
-        Thread.sleep(300);
-        newContractPage.selectDistrict();
-        Thread.sleep(300);
-        newContractPage.selectCity();
-        Thread.sleep(300);
-        newContractPage.selectStreet();
-        Thread.sleep(300);
-        newContractPage.enterLastName("Перебийніс");
-        Thread.sleep(300);
-        newContractPage.enterFirstName("Орест");
-        Thread.sleep(300);
-        newContractPage.enterMiddleName("Михайлович");
-        Thread.sleep(300);
-        newContractPage.selectBirthday();
-        Thread.sleep(300);
-        newContractPage.enterInn("3213215765");
-        Thread.sleep(300);
-        newContractPage.selectPassportType();
-        Thread.sleep(300);
-        newContractPage.enterPassportNumber("132548731");
-        Thread.sleep(300);
-        newContractPage.enterPhoneNumber("504682517");
-        Thread.sleep(300);
-        newContractPage.clickOnBtnSubmit();
-        Thread.sleep(1000);
-//        newContractPage.checkStatus();
+        changeContractPage.enterEicNumber("4444444444444444");
+        changeContractPage.selectObject();
+        changeContractPage.choosePrivilege();
+        changeContractPage.chooseCounter();
+        changeContractPage.enterRegPersons("11");
+        changeContractPage.checkboxBoiler();
+        changeContractPage.selectOperatorGrm();
+        changeContractPage.selectRegion();
+        changeContractPage.selectDistrict();
+        changeContractPage.selectCity();
+        changeContractPage.selectStreet();
+        changeContractPage.enterBuilding("15А");
+        changeContractPage.enterIndex("04216");
+        changeContractPage.enterLastName("Перебийніс");
+        changeContractPage.enterFirstName("Орест");
+        changeContractPage.enterMiddleName("Михайлович");
+        changeContractPage.selectBirthday();
+        changeContractPage.enterInn("3213215765");
+        changeContractPage.selectPassportType();
+        changeContractPage.enterPassportNumber("132548731");
+        changeContractPage.enterPhoneNumber("504682517");
+        changeContractPage.enterEmail("sample@gmail.com");
+        changeContractPage.clickOnBtnSubmit();
+        Thread.sleep(10000);
+        changeContractPage.closePrint();
+        changeContractPage.checkStatus();
+        checkExpectedResult("Status is not present", changeContractPage.checkStatus());
 
         System.out.println("Change contract filled up succesfully");
 

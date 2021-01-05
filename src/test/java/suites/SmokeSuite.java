@@ -10,7 +10,9 @@ import zayavki.Receipt;
 @Suite.SuiteClasses(
         {
                 Receipt.class,
+                Receipt.class,
                 NewContract.class,
+                ChangeContract.class,
                 ChangeContract.class
         }
 )

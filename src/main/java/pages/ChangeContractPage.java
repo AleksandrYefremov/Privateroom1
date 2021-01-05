@@ -4,6 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.awt.*;
+import java.awt.event.KeyEvent;
+
 public class ChangeContractPage extends ParentPage {
     @FindBy(css = "input[name='eic']")
     private WebElement inputEicNumber;
@@ -16,6 +19,18 @@ public class ChangeContractPage extends ParentPage {
 
     @FindBy(css = "mat-option:nth-of-type(2) > .mat-option-text")
     private WebElement object;
+
+    @FindBy(css = "[formcontrolname='HasPrivilege'] .mat-select-value")
+    private WebElement privilegeDD;
+
+    @FindBy(css = "mat-option:nth-of-type(1) > .mat-option-text")
+    private WebElement privilege;
+
+    @FindBy(css = "[formcontrolname='HasCounter'] .mat-select-value")
+    private WebElement counterDD;
+
+    @FindBy(css = "mat-option:nth-of-type(1) > .mat-option-text")
+    private WebElement counter;
 
     @FindBy(css = "[formcontrolname='RegisteredPersons']")
     private WebElement regPersons;
@@ -53,6 +68,12 @@ public class ChangeContractPage extends ParentPage {
     @FindBy(css = "mat-option:nth-of-type(10) > .mat-option-text")
     private WebElement street;
 
+    @FindBy(css = "[formcontrolname='AddressBuildNumberFull']")
+    private WebElement buildingField;
+
+    @FindBy(css = "[formcontrolname='AddressIndex']")
+    private WebElement indexField;
+
     @FindBy(css = "[formcontrolname='LastName']")
     private WebElement lastNameField;
 
@@ -83,6 +104,9 @@ public class ChangeContractPage extends ParentPage {
     @FindBy(css = "[formcontrolname='ContactPhoneNumber']")
     private WebElement phoneNumberField;
 
+    @FindBy(css = "[formcontrolname='ContactEmail']")
+    private WebElement emailField;
+
     @FindBy(css = ".button.button--submit.mat-accent.mat-button-base.mat-raised-button.ng-star-inserted")
     private WebElement btnSubmit;
 
@@ -100,10 +124,19 @@ public class ChangeContractPage extends ParentPage {
         actionsWithElements.clickOnElement(btnVerifyNumber);
     }
 
-
     public void selectObject() {
         actionsWithElements.clickOnElement(objectDD);
         actionsWithElements.clickOnElement(object);
+    }
+
+    public void choosePrivilege() {
+        actionsWithElements.clickOnElement(privilegeDD);
+        actionsWithElements.clickOnElement(privilege);
+    }
+
+    public void chooseCounter() {
+        actionsWithElements.clickOnElement(counterDD);
+        actionsWithElements.clickOnElement(counter);
     }
 
     public void enterRegPersons(String persons) {
@@ -135,7 +168,16 @@ public class ChangeContractPage extends ParentPage {
         actionsWithElements.clickOnElement(street);
     }
 
+    public void enterBuilding(String building) {
+        actionsWithElements.enterTextInToElement(buildingField,building);
+    }
+
+    public void enterIndex(String index) {
+        actionsWithElements.enterTextInToElement(indexField,index);
+    }
+
     public void enterLastName(String lastName) {
+
         actionsWithElements.enterTextInToElement(lastNameField, lastName);
     }
 
@@ -169,7 +211,12 @@ public class ChangeContractPage extends ParentPage {
         actionsWithElements.enterNumberInToElement(phoneNumberField, phoneNumber);
     }
 
-    public void clickOnBtnSubmit() {
+    public void enterEmail(String email) {
+        actionsWithElements.enterTextInToElement(emailField,email);
+    }
+
+    public void clickOnBtnSubmit() throws InterruptedException {
+        Thread.sleep(1000);
         actionsWithElements.isElementPresent(btnSubmit);
         actionsWithElements.clickOnElement(btnSubmit);
     }
@@ -178,7 +225,15 @@ public class ChangeContractPage extends ParentPage {
         actionsWithElements.setStatusToCheckBox(setcheckboxBoiler,"check");
     }
 
-    public void checkStatus() {
+    public boolean checkStatus() {
         actionsWithElements.isElementPresent(status);
+        return true;
+    }
+
+    public void closePrint() throws AWTException {
+        // press Escape programatically - the print dialog must have focus, obviously
+        Robot r = new Robot();
+        r.keyPress(KeyEvent.VK_ESCAPE);
+        r.keyRelease(KeyEvent.VK_ESCAPE);
     }
 }

@@ -21,6 +21,18 @@ public class NewContractPage extends ParentPage {
     @FindBy(css = "mat-option:nth-of-type(2) > .mat-option-text")
     private WebElement object;
 
+    @FindBy(css = "[formcontrolname='HasPrivilege'] .mat-select-value")
+    private WebElement privilegeDD;
+
+    @FindBy(css = "mat-option:nth-of-type(1) > .mat-option-text")
+    private WebElement privilege;
+
+    @FindBy(css = "[formcontrolname='HasCounter'] .mat-select-value")
+    private WebElement counterDD;
+
+    @FindBy(css = "mat-option:nth-of-type(1) > .mat-option-text")
+    private WebElement counter;
+
     @FindBy(css = "[formcontrolname='RegisteredPersons']")
     private WebElement regPersons;
 
@@ -57,6 +69,12 @@ public class NewContractPage extends ParentPage {
     @FindBy(css = "mat-option:nth-of-type(10) > .mat-option-text")
     private WebElement street;
 
+    @FindBy(css = "[formcontrolname='AddressBuildNumberFull']")
+    private WebElement buildingField;
+
+    @FindBy(css = "[formcontrolname='AddressIndex']")
+    private WebElement indexField;
+
     @FindBy(css = "[formcontrolname='LastName']")
     private WebElement lastNameField;
 
@@ -87,6 +105,9 @@ public class NewContractPage extends ParentPage {
     @FindBy(css = "[formcontrolname='ContactPhoneNumber']")
     private WebElement phoneNumberField;
 
+    @FindBy(css = "[formcontrolname='ContactEmail']")
+    private WebElement emailField;
+
     @FindBy(css = ".button.button--submit.mat-accent.mat-button-base.mat-raised-button.ng-star-inserted")
     private WebElement btnSubmit;
 
@@ -108,6 +129,16 @@ public class NewContractPage extends ParentPage {
     public void selectObject() {
         actionsWithElements.clickOnElement(objectDD);
         actionsWithElements.clickOnElement(object);
+    }
+
+    public void choosePrivilege() {
+        actionsWithElements.clickOnElement(privilegeDD);
+        actionsWithElements.clickOnElement(privilege);
+    }
+
+    public void chooseCounter() {
+        actionsWithElements.clickOnElement(counterDD);
+        actionsWithElements.clickOnElement(counter);
     }
 
     public void enterRegPersons(String persons) {
@@ -139,7 +170,16 @@ public class NewContractPage extends ParentPage {
         actionsWithElements.clickOnElement(street);
     }
 
+    public void enterBuilding(String building) {
+        actionsWithElements.enterTextInToElement(buildingField,building);
+    }
+
+    public void enterIndex(String index) {
+        actionsWithElements.enterTextInToElement(indexField,index);
+    }
+
     public void enterLastName(String lastName) {
+
         actionsWithElements.enterTextInToElement(lastNameField, lastName);
     }
 
@@ -173,6 +213,10 @@ public class NewContractPage extends ParentPage {
         actionsWithElements.enterNumberInToElement(phoneNumberField, phoneNumber);
     }
 
+    public void enterEmail(String email) {
+        actionsWithElements.enterTextInToElement(emailField,email);
+    }
+
     public void clickOnBtnSubmit() throws InterruptedException {
         Thread.sleep(1000);
         actionsWithElements.isElementPresent(btnSubmit);
@@ -194,6 +238,9 @@ public class NewContractPage extends ParentPage {
         r.keyPress(KeyEvent.VK_ESCAPE);
         r.keyRelease(KeyEvent.VK_ESCAPE);
     }
+
+
+
 }
 
 
